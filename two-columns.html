@@ -1,0 +1,257 @@
+<!-- hi! -->
+
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your page title here]</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Source+Serif+Pro:400,700|Nunito+Sans:400,700" rel="stylesheet">
+
+  <style>
+    /* -----  Customize  -------------------------------------------------------- */
+
+    body {
+      color: #222; /* text color */
+      background: #fff; /* outer background */
+      /* font-family: 'Inconsolata', monospace; /* Monospace font */
+      font-family: 'Nunito Sans', sans-serif; /* Sans Serif font */
+      /* font-family: 'Source Serif Pro', serif; /* Serif font */
+    }
+
+    hr {
+      background: #333; /* divider color */
+    }
+
+    li:before {
+      content: "•"; /* list bullet type */
+    }
+
+    .all {
+      background: #fff; /* inner background */
+      max-width: 900px; /* text width */
+    }
+
+    .main {
+      flex: 2;
+    }
+
+    .aside {
+      flex: 1;
+    }
+
+    /* -----  Theme  ------------------------------------------------------------ */
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-size: 1.1em;
+      font-smoothing: antialiased;
+      line-height: 1.4;
+      margin: 4em auto 6em auto;
+    }
+
+    a,
+    a:visited {
+      border-bottom: 1px solid #ccc;
+      color: #20979B;
+      text-decoration: none;
+      transition: all .3s ease;
+    }
+
+    a:hover {
+      border-bottom: 1px solid;
+      color: #20979B;
+    }
+
+    figure {
+      margin-bottom: 2em;
+    }
+
+    figcaption {
+      font-size: .6rem;
+      font-weight: 700;
+      letter-spacing: .04rem;
+      margin: .5em 0;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 400;
+      margin-bottom: 1em;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      margin: 2em;
+      position: relative;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 2em;
+      padding: 0em;
+    }
+
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    li {
+      padding-left: 1em;
+    }
+
+    li:before {
+      display: inline-block;
+      margin-left: -1em;
+      width: 1em;
+    }
+
+    .all {
+      border-radius: .1em;
+      margin: auto;
+      padding: 3em 2em;
+    }
+
+    @media (min-width: 520px) {
+      .all {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .aside {
+      padding: 1em 1em 0em 1em;
+      clear: both;
+      float: none;
+    }
+
+    .big {
+      font-size: 1.4rem;
+    }
+
+    .main {
+      display: block;
+      margin: auto;
+      padding: 0 1em;
+    }
+
+    .copyright {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 700;
+      margin: 3em 0;
+      text-align: center;
+    }
+
+    .copyright a {
+      background: #ccc;
+      border-bottom: none;
+      border-radius: 1em;
+      color: #222;
+      color: #ccc;
+      font-size: .8rem;
+      height: 1em;
+      line-height: 1.2em;
+      position: absolute;
+      width: 1em;
+    }
+
+    .copyright .info {
+      color: #bbb;
+      display: inline-block;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .copyright:hover .info {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .copyright .info {
+      margin-left: 1.5em;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body id="index">
+  <div class="all">
+    <main class="main">
+      <section class="box highlight">
+        <h1>Your name here</h1>
+        <p class="big">Some general information, link and/or contact details. Don't know how to edit this page? <a href="http://marcomezzavilla.com">Click here.</a></p>
+      </section>
+
+      <hr>
+
+      <section class="box research">
+        <h2>Research</h2>
+
+        <p>A small introduction to your research can be very useful.</p>
+        <p>Don't be shy, but neither too talkative.</p>
+
+        <br />
+
+        <p>Here you can list the title and the reference of your work:</p>
+
+        <ul>  
+          <li>Every paragraph can contain a project.</li>
+          <li>You can easily inser a <a href="#">link</a> or change the text style in <em>italic</em> or <strong>bold</strong>.</li>
+        </ul>
+
+        <p>Other writings:</p>
+
+        <ul>  
+          <li>Same as above.</li>
+          <li>Every paragraph can contain a paper.</li>
+        </ul>
+
+        <p>Video and other stuff:</p>
+
+        <ul>
+          <li><a href="#">Link one</a> and description.</li>
+          <li><a href="#">Link two</a> and another description.</li>
+        </ul>
+      </section>
+    </main>
+
+    <aside class="aside">
+      <figure>
+        <img src="image.png" title="Cavalieri" alt="Cavalieri" class="photo">
+        <figcaption>This is a nice caption</figcaption>
+      </figure>
+    </aside>
+  </div>
+
+  <!-- thank you -->
+  <div class="copyright">
+    <a href="http://marcomezzavilla.com">
+      <span class="info">Made by M</span>
+    </a>
+  </div>
+</body>
+
+</html>
